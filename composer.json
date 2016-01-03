@@ -1,0 +1,28 @@
+{
+  "name": "rakshazi/digestauth",
+  "description": "PHP Digest auth library",
+  "keywords": [
+    "auth",
+    "digest"
+  ],
+  "homepage": "https://github.com/rakshazi/digestauth",
+  "type": "library",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Nikita Cherniy",
+      "homepage": "https://github.com/rakshazi"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rakshazi\\": "Rakshazi"
+    }
+  }
+}
