@@ -133,7 +133,7 @@ class Digestauth {
     {
         $header = 'WWW-Authenticate: ';
         $header.= 'Digest realm="'.$this->realm.'",';
-        $header.= 'qop="auth"';
+        $header.= 'qop="auth",';
         $header.= 'nonce="'.uniqid(true).'",';
         $header.= 'opaque="'.md5($this->realm).'"';
 
